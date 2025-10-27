@@ -1,4 +1,6 @@
-# Welcome to your Lovable project
+# Ascend Agency - Marketing Website
+
+A stunning, modern marketing agency landing page built with React, TypeScript, and Tailwind CSS. Features an interactive fluid cursor effect, smooth animations, and a professional design.
 
 ## Project info
 
