@@ -17,7 +17,9 @@ const Index = () => {
       <SplashCursor />
       <Navigation />
       <ShaderHero />
-      <AnimatedHero />
+      <div className="relative -mt-32 bg-gradient-to-b from-transparent via-background to-background pt-32">
+        <AnimatedHero />
+      </div>
       <LogoCloudSection />
       <Services />
       <SuccessStories />

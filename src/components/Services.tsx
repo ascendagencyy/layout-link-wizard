@@ -42,11 +42,11 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--primary)/0.2)]"
+              className="group p-8 bg-card border-border hover:border-primary/50 transition-all duration-500 hover:shadow-[0_0_40px_hsl(var(--primary)/0.4)] hover:bg-card/80"
             >
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-5xl">{service.icon}</span>
-                <h3 className="text-2xl md:text-3xl font-bold text-foreground">
+                <span className="text-5xl group-hover:scale-110 transition-transform duration-300 group-hover:drop-shadow-[0_0_15px_rgba(59,130,246,0.5)]">{service.icon}</span>
+                <h3 className="text-2xl md:text-3xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
                   {service.title}
                 </h3>
               </div>

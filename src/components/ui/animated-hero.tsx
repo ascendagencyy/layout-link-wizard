@@ -19,9 +19,11 @@ function AnimatedHero() {
       <div className="container mx-auto">
         <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
           <div>
-            <Button variant="secondary" size="sm" className="gap-4">
-              Read our launch article <MoveRight className="w-4 h-4" />
-            </Button>
+            <div className="group px-6 py-2 rounded-full border border-primary/30 bg-primary/5 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_hsl(var(--primary)/0.3)] cursor-default">
+              <span className="text-sm font-medium bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+                Next-Gen Marketing Agency
+              </span>
+            </div>
           </div>
           <div className="flex gap-4 flex-col">
             <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
@@ -52,7 +54,7 @@ function AnimatedHero() {
             
             <Button size="lg" className="gap-4 text-base" asChild>
               <a href="#contact">
-                Sign up here <MoveRight className="w-4 h-4" />
+                Get Free Audit <MoveRight className="w-4 h-4" />
               </a>
             </Button>
           </div>
