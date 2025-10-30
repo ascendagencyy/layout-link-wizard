@@ -10,14 +10,16 @@ import TestimonialsAnimated from "@/components/TestimonialsAnimated";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import { SplashCursor } from "@/components/ui/splash-cursor";
+import ScrollProgressBar from "@/components/ScrollProgressBar";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SplashCursor />
+      <ScrollProgressBar />
       <Navigation />
       <ShaderHero />
-      <div className="relative -mt-32 bg-gradient-to-b from-transparent via-background to-background pt-32">
+      <div className="relative -mt-48 bg-gradient-to-b from-transparent via-background/50 to-background pt-48">
         <AnimatedHero />
       </div>
       <LogoCloudSection />
